@@ -1,13 +1,42 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:"Titulo";
+    src: url(Fontes/daydream_3/Daydream.ttf);
+}
+@font-face {
+    font-family: "Global";
+    src: url(Fontes/coolvetica/coolvetica\ condensed\ rg.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --laranja_claro: #D97C2B;
-    --laranja:#F24405;
+    --laranja_claro: #d97c2b;
+    --laranja:#f24405;
     --terracota:#BF2604;
     --marsala:#731702;
     --preto:#0D0D0D;
+
 }
 
 body {
-    background-color:var();
+    background-color:var(--preto);
+    font-family:Global;
+    width:100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    font-family: Titulo;
+    color: var(--laranja);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

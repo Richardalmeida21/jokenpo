@@ -173,7 +173,7 @@ main {
 }
 
 .jogada_jg1 h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 200;
     color: white;
 }
@@ -187,7 +187,7 @@ main {
 }
 
 .jogada_robo h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 200;
     color: white;
 }
@@ -199,7 +199,11 @@ main {
     justify-content: space-around;
 }
 
-#je_1,  #je_2 {
+#je_1,  #je_2, #je_3{
+    display:none;
+}
+
+#robo_1, #robo_2, #robo_3 {
     display:none;
 }
 

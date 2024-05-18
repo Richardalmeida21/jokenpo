@@ -19,15 +19,19 @@
         </div>
 
         <div class="placar">
+            <h1 class="ganhador">VOCÊ É O GANHADOR!!</h1>
+            <h1 class="perdedor">VOCÊ É O PERDEDOR!!</h1>
+            <a href="index.html" class="btn_reset">NOVO JOGO</a>
 
             <div class="pontuacao">
                 <div class="jg1">
                     <h2>Você :</h2>
-                    <p>0</p>
+                    <p id="pontos_jogador">0</p>
                 </div>
+                <p class="empate" id="caso_empate">Empate</p>
                 <div class="robo">
                     <h2>Everaldo :</h2>
-                    <p>0</p>
+                    <p id="pontos_robo">0</p>
                 </div>
             </div>
 
@@ -51,9 +55,9 @@
             <div class="jogadas">
                 <h2>Escolha sua jogada</h2>
                 <div class="opcoes">
-                    <span class="twemoji--rock pedra" onclick="ExibirJogadaPedra()"></span>
-                    <span class="guidance--paper papel" onclick="ExibirJogadaPapel()"></span>
-                    <span class="noto--scissors tesoura" onclick="ExibirJogadaTesoura()"></span>
+                    <span class="twemoji--rock pedra" onclick="ExibirJogada('pedra')"></span>
+                    <span class="guidance--paper papel" onclick="ExibirJogada('papel')"></span>
+                    <span class="noto--scissors tesoura" onclick="ExibirJogada('tesoura')"></span>
                 </div>
             </div>
 

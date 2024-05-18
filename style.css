@@ -207,7 +207,39 @@ main {
     display:none;
 }
 
+.empate {
+    
+    color:var(--laranja_claro);
+    margin-top: 5%;
+    display:none;
+}
 
+.ganhador {
+    font-size: 70px;
+    color: white;
+    margin-top: 20%;
+    display: none;
+}
+
+.perdedor {
+    display: none;
+    font-size: 70px;
+    color: white;
+    margin-top: 20%;
+}
+
+.btn_reset {
+    display: none;
+    margin-bottom: 30%;
+    width: 200px;
+    padding: 10px;
+    background-color: #d97c2b;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
 
 
 

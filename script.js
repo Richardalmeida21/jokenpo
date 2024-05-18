@@ -83,17 +83,17 @@ function ExibirJogada(jogada) {
     // ---------------------------------------------------------- fim de jogo
 
     if (Pontos_jogador == 10) {
-        Reset_Pontos.style.display = 'none'
-        Reset_Jogadas.style.display = 'none'
-        Reset.style.display = 'none'
-        msg_winjogador.style.display = 'block'
-        btn.style.display = 'block'
+        Reset_Pontos.style.display = 'none';
+        Reset_Jogadas.style.display = 'none';
+        Reset.style.display = 'none';
+        msg_winjogador.style.display = 'block';
+        btn.style.display = 'block';
     } else if (Pontos_robo == 10) {
-        Reset_Pontos.style.display == 'none'
-        Reset_Jogadas.style.display = 'none'
-        Reset.style.display = 'none'
-        msg_winrobo.style.display = 'block'
-        btn.style.display = 'block'
+        Reset_Pontos.style.display = 'none';
+        Reset_Jogadas.style.display = 'none';
+        Reset.style.display = 'none';
+        msg_winrobo.style.display = 'block';
+        btn.style.display = 'block';
     }
 
 
